@@ -1,0 +1,552 @@
+group:          Quake
+process:        TrenchBroom
+
+shortcuts:
+    - name:      Menu/File/New
+      keys:
+      - Ctrl+N
+
+    - name:      Menu/File/Open...
+      keys:
+      - Ctrl+O
+
+    - name:      Menu/File/Save
+      keys:
+      - Ctrl+S
+
+    - name:      Menu/File/Reload Texture Collections
+      keys:
+      - F5
+
+    - name:      Menu/File/Reload Entity Definitions
+      keys:
+      - F6
+
+    - name:      Menu/File/Close
+      keys:
+      - Ctrl+F4
+
+    - name:      Menu/Edit/Undo
+      keys:
+      - Ctrl+Z
+
+    - name:      Menu/Edit/Redo
+      keys:
+      - Ctrl+Y
+
+    - name:      Menu/Edit/Repeat
+      keys:
+      - Ctrl+R
+
+    - name:      Menu/Edit/Clear Repeatable Commands
+      keys:
+      - Ctrl+Shift+R
+
+    - name:      Menu/Edit/Cut
+      keys:
+      - Ctrl+X
+
+    - name:      Menu/Edit/Copy
+      keys:
+      - Ctrl+C
+
+    - name:      Menu/Edit/Paste
+      keys:
+      - Ctrl+V
+
+    - name:      Menu/Edit/Paste at Original Position
+      keys:
+      - Ctrl+Alt+V
+
+    - name:      Menu/Edit/Duplicate
+      keys:
+      - Ctrl+D
+
+    - name:      Menu/Edit/Delete
+      keys:
+      - Del
+
+    - name:      Menu/Edit/Select All
+      keys:
+      - Ctrl+A
+
+    - name:      Menu/Edit/Select Siblings
+      keys:
+      - Ctrl+B
+
+    - name:      Menu/Edit/Select Touching
+      keys:
+      - Ctrl+T
+
+    - name:      Menu/Edit/Select Inside
+      keys:
+      - Ctrl+E
+
+    - name:      Menu/Edit/Select Tall
+      keys:
+      - Ctrl+Shift+E
+
+    - name:      Menu/Edit/Select Inverse
+      keys:
+      - Ctrl+Alt+A
+
+    - name:      Menu/Edit/Select None
+      keys:
+      - Ctrl+Shift+A
+
+    - name:      Menu/Edit/Group
+      keys:
+      - Ctrl+G
+
+    - name:      Menu/Edit/Ungroup
+      keys:
+      - Ctrl+Shift+G
+
+    - name:      Menu/Edit/Create Linked Duplicate
+      keys:
+      - Ctrl+Shift+D
+
+    - name:      Controls/Map view/Flip objects horizontally
+      keys:
+      - Ctrl+F
+
+    - name:      Controls/Map view/Flip objects vertically
+      keys:
+      - Ctrl+Alt+F
+
+    - name:      Menu/Edit/Tools/Brush Tool
+      keys:
+      - B
+
+    - name:      Menu/Edit/Tools/Clip Tool
+      keys:
+      - C
+
+    - name:      Menu/Edit/Tools/Rotate Tool
+      keys:
+      - R
+
+    - name:      Menu/Edit/Tools/Scale Tool
+      keys:
+      - T
+
+    - name:      Menu/Edit/Tools/Shear Tool
+      keys:
+      - G
+
+    - name:      Menu/Edit/Tools/Vertex Tool
+      keys:
+      - V
+
+    - name:      Menu/Edit/Tools/Edge Tool
+      keys:
+      - E
+
+    - name:      Menu/Edit/Tools/Face Tool
+      keys:
+      - F
+
+    - name:      Controls/Map view/Deactivate current tool
+      keys:
+      - Ctrl+Esc
+
+    - name:      Menu/Edit/CSG/Convex Merge
+      keys:
+      - Ctrl+J
+
+    - name:      Menu/Edit/CSG/Subtract
+      keys:
+      - Ctrl+K
+
+    - name:      Menu/Edit/CSG/Hollow
+      keys:
+      - Ctrl+Shift+K
+
+    - name:      Menu/Edit/CSG/Intersect
+      keys:
+      - Ctrl+L
+
+    - name:      Menu/Edit/Snap Vertices to Integer
+      keys:
+      - Ctrl+Shift+V
+
+    - name:      Menu/Edit/Snap Vertices to Grid
+      keys:
+      - Ctrl+Alt+Shift+V
+
+    - name:      Menu/Edit/UV Lock
+      keys:
+      - U
+
+    - name:      Menu/View/Grid/Show Grid
+      keys:
+      - 0
+
+    - name:      Menu/View/Grid/Snap to Grid
+      keys:
+      - Alt+0
+
+    # - name:      Menu/View/Grid/Increase Grid Size
+      # keys:
+      # - +
+
+    # - name:      Menu/View/Grid/Decrease Grid Size
+      # keys:
+      # - -
+
+    # - name:      Menu/View/Grid/Set Grid Size 1
+      # keys:
+      # - 1
+
+    # - name:      Menu/View/Grid/Set Grid Size 2
+      # keys:
+      # - 2
+
+    # - name:      Menu/View/Grid/Set Grid Size 4
+      # keys:
+      # - 3
+
+    # - name:      Menu/View/Grid/Set Grid Size 8
+      # keys:
+      # - 4
+
+    # - name:      Menu/View/Grid/Set Grid Size 16
+      # keys:
+      # - 5
+
+    # - name:      Menu/View/Grid/Set Grid Size 32
+      # keys:
+      # - 6
+
+    # - name:      Menu/View/Grid/Set Grid Size 64
+      # keys:
+      # - 7
+
+    # - name:      Menu/View/Grid/Set Grid Size 128
+      # keys:
+      # - 8
+
+    # - name:      Menu/View/Grid/Set Grid Size 256
+      # keys:
+      # - 9
+
+    # - name:      Menu/View/Camera/Move to Next Point
+      # keys:
+      # - .
+
+    # - name:      Menu/View/Camera/Move to Previous Point
+      # keys:
+      # - ,
+
+    - name:      Menu/View/Camera/Focus on Selection
+      keys:
+      - Ctrl+U
+
+    - name:      Menu/View/Isolate
+      keys:
+      - Ctrl+I
+
+    - name:      Menu/View/Hide
+      keys:
+      - Ctrl+Alt+I
+
+    - name:      Menu/View/Show All
+      keys:
+      - Ctrl+Shift+I
+
+    # - name:      Menu/View/Switch to Map Inspector
+      # keys:
+      # - Ctrl+1
+
+    # - name:      Menu/View/Switch to Entity Inspector
+      # keys:
+      # - Ctrl+2
+
+    # - name:      Menu/View/Switch to Face Inspector
+      # keys:
+      # - Ctrl+3
+
+    - name:      Menu/View/Toggle Toolbar
+      keys:
+      - Ctrl+Alt+T
+
+    - name:      Menu/View/Toggle Info Panel
+      keys:
+      - Ctrl+4
+
+    - name:      Menu/View/Toggle Inspector
+      keys:
+      - Ctrl+5
+
+    - name:      Menu/View/Maximize Current View
+      keys:
+      - Ctrl+Space
+
+    - name:      Menu/Help/TrenchBroom Manual
+      keys:
+      - F1
+
+    - name:      Controls/Map view/Deactivate current tool
+      keys:
+      - Ctrl+Esc
+
+    - name:      Menu/Edit/Tools/Brush Tool
+      keys:
+      - B
+
+    - name:      Menu/Edit/Tools/Clip Tool
+      keys:
+      - C
+
+    - name:      Menu/Edit/Tools/Vertex Tool
+      keys:
+      - V
+
+    - name:      Menu/Edit/Tools/Edge Tool
+      keys:
+      - E
+
+    - name:      Menu/Edit/Tools/Face Tool
+      keys:
+      - F
+
+    - name:      Menu/Edit/Tools/Rotate Tool
+      keys:
+      - R
+
+    - name:      Menu/Edit/Tools/Scale Tool
+      keys:
+      - T
+
+    - name:      Menu/Edit/Tools/Shear Tool
+      keys:
+      - G
+
+    - name:      Menu/Edit/Duplicate
+      keys:
+      - Ctrl+D
+
+    - name:      Controls/Map view/Flip objects horizontally
+      keys:
+      - Ctrl+F
+
+    - name:      Controls/Map view/Flip objects vertically
+      keys:
+      - Ctrl+Alt+F
+
+    - name:      Menu/Edit/UV Lock
+      keys:
+      - U
+
+    - name:      Controls/Map view/Cancel
+      keys:
+      - Esc
+
+    - name:      Controls/Map view/Create brush
+      keys:
+      - Return
+
+    - name:      Controls/Map view/Cycle map view
+      keys:
+      - Space
+
+    - name:      Controls/Map view/Duplicate and move objects backward; Duplicate and move objects up
+      keys:
+      - Ctrl+PgUp
+
+    - name:      Controls/Map view/Duplicate and move objects down; Duplicate and move objects backward
+      keys:
+      - Ctrl+Down
+
+    - name:      Controls/Map view/Duplicate and move objects forward; Duplicate and move objects down
+      keys:
+      - Ctrl+PgDown
+
+    - name:      Controls/Map view/Duplicate and move objects left
+      keys:
+      - Ctrl+Left
+
+    - name:      Controls/Map view/Duplicate and move objects right
+      keys:
+      - Ctrl+Right
+
+    - name:      Controls/Map view/Duplicate and move objects up; Duplicate and move objects forward
+      keys:
+      - Ctrl+Up
+
+    - name:      Controls/Map view/Flip textures horizontally
+      keys:
+      - Ctrl+F
+
+    - name:      Controls/Map view/Flip textures vertically
+      keys:
+      - Ctrl+Alt+F
+
+    - name:      Controls/Map view/Make structural
+      keys:
+      - Alt+S
+
+    - name:      Controls/Map view/Move objects backward; Move objects up
+      keys:
+      - PgUp
+
+    - name:      Controls/Map view/Move objects down; Move objects backward
+      keys:
+      - Down
+
+    - name:      Controls/Map view/Move objects forward; Move objects down
+      keys:
+      - PgDown
+
+    - name:      Controls/Map view/Move objects left
+      keys:
+      - Left
+
+    - name:      Controls/Map view/Move objects right
+      keys:
+      - Right
+
+    - name:      Controls/Map view/Move objects up; Move objects forward
+      keys:
+      - Up
+
+    - name:      Controls/Map view/Move textures down
+      keys:
+      - Down
+
+    - name:      Controls/Map view/Move textures down (coarse)
+      keys:
+      - Shift+Down
+
+    - name:      Controls/Map view/Move textures down (fine)
+      keys:
+      - Ctrl+Down
+
+    - name:      Controls/Map view/Move textures left
+      keys:
+      - Left
+
+    - name:      Controls/Map view/Move textures left (coarse)
+      keys:
+      - Shift+Left
+
+    - name:      Controls/Map view/Move textures left (fine)
+      keys:
+      - Ctrl+Left
+
+    - name:      Controls/Map view/Move textures right
+      keys:
+      - Right
+
+    - name:      Controls/Map view/Move textures right (coarse)
+      keys:
+      - Shift+Right
+
+    - name:      Controls/Map view/Move textures right (fine)
+      keys:
+      - Ctrl+Right
+
+    - name:      Controls/Map view/Move textures up
+      keys:
+      - Up
+
+    - name:      Controls/Map view/Move textures up (coarse)
+      keys:
+      - Shift+Up
+
+    - name:      Controls/Map view/Move textures up (fine)
+      keys:
+      - Ctrl+Up
+
+    - name:      Controls/Map view/Perform clip
+      keys:
+      - Return
+
+    - name:      Controls/Map view/Pitch objects clockwise
+      keys:
+      - Alt+PgUp
+
+    - name:      Controls/Map view/Pitch objects counter-clockwise
+      keys:
+      - Alt+PgDown
+
+    - name:      Controls/Map view/Reset camera zoom
+      keys:
+      - Shift+Esc
+
+    - name:      Controls/Map view/Reset texture alignment
+      keys:
+      - Shift+R
+
+    - name:      Controls/Map view/Reset texture alignment to world aligned
+      keys:
+      - Alt+Shift+R
+
+    - name:      Controls/Map view/Roll objects clockwise
+      keys:
+      - Alt+Up
+
+    - name:      Controls/Map view/Roll objects counter-clockwise
+      keys:
+      - Alt+Down
+
+    - name:      Controls/Map view/Rotate textures clockwise
+      keys:
+      - PgUp
+
+    - name:      Controls/Map view/Rotate textures clockwise (coarse)
+      keys:
+      - Shift+PgUp
+
+    - name:      Controls/Map view/Rotate textures clockwise (fine)
+      keys:
+      - Ctrl+PgUp
+
+    - name:      Controls/Map view/Rotate textures counter-clockwise
+      keys:
+      - PgDown
+
+    - name:      Controls/Map view/Rotate textures counter-clockwise (coarse)
+      keys:
+      - Shift+PgDown
+
+    - name:      Controls/Map view/Rotate textures counter-clockwise (fine)
+      keys:
+      - Ctrl+PgDown
+
+    - name:      Controls/Map view/Toggle clip side
+      keys:
+      - Ctrl+Return
+
+    - name:      Controls/Map view/Yaw objects clockwise
+      keys:
+      - Alt+Left
+
+    - name:      Controls/Map view/Yaw objects counter-clockwise
+      keys:
+      - Alt+Right
+
+    # - name:      Controls/Camera/Move forward
+      # keys:
+      # - W
+
+    # - name:      Controls/Camera/Move backward
+      # keys:
+      # - S
+
+    # - name:      Controls/Camera/Move left
+      # keys:
+      # - A
+
+    # - name:      Controls/Camera/Move right
+      # keys:
+      # - D
+
+    # - name:      Controls/Camera/Move up
+      # keys:
+      # - Q
+
+    # - name:      Controls/Camera/Move down
+      # keys:
+      # - X
+

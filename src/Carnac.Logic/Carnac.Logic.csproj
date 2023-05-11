@@ -143,6 +143,7 @@
     <Content Include="Keymaps\vscode.yml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Keymaps\trenchbroom.yml" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
